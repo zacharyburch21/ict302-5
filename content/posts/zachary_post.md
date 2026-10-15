@@ -7,9 +7,3 @@ tags = ['Basketball', 'Football']
 
 This is another test post to test out the branches feature in GitHub.
 
-
-
-Welcome to the website! Here's a [link](https://uky.edu).
-
-
-
