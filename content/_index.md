@@ -4,5 +4,5 @@ draft = true
 title = ''
 +++
 
-Welcome to the website! Here's a \[link](https://uky.edu).
+Welcome to the website! Here's a [link](/chris_page).
 
