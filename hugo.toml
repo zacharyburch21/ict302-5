@@ -3,6 +3,18 @@ locale = 'en-us'
 title = 'UK Parking'
 theme = 'beautifulhugo'
 [[menus.main]]
-  name = 'Home'
+  name ='Home'
   url = '/'
-  weight = 10
+  weight = 20
+[[menus.main]]
+  name ='Employee Parking'
+  url = '/'
+  wieght = 20
+ [[menus.main]]
+  name ='Student Parking'
+  url = '/'
+  wieght = 20
+ [[menus.main]]
+  name ='Visitor Parking'
+  url = '/'
+  wieght = 20
