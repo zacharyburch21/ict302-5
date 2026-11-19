@@ -3,15 +3,13 @@ title = ''
 draft = false
 +++
 
-<<<<<<< Updated upstream
-## Find Your Parking at UK
+ Find Your Parking at UK
 =======
 Welcome to the website! 
 
 
 
 
->>>>>>> Stashed changes
 
 Planning a trip to the University of Kentucky? Explore the campus parking map to find parking locations and review options for students, employees, and visitors.
 
@@ -23,9 +21,6 @@ Use the daytime campus parking map below to locate parking areas. Check the lege
 
 **Before you park:** Check posted signs and curb markings when you arrive. They take precedence over map information. The map does not show temporary closures or special-event impacts.
 
-### Need Another Map?
-
-[View official printable parking maps](https://transportation.uky.edu/parking-maps), including student, employee, accessible, and off-peak parking maps.
 
 ---
 
