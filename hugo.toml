@@ -2,29 +2,20 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'UK Parking'
 theme = 'beautifulhugo'
-  [menus]
- [[menus.main]]
+[[menus.main]]
   name ='Home'
   url = '/'
   weight = 20
 [[menus.main]]
   name ='Employee Parking'
-  url = '/'
-  weight = 20
+  url = '/Employee_Parking'
+  wieght = 20
  [[menus.main]]
   name ='Student Parking'
-  url = '/'
-  weight = 20
+  url = '/Student_Parking'
+  wieght = 20
  [[menus.main]]
   name ='Visitor Parking'
-  url = '/'
-  weight = 20
+  url = '/Visitor_Parking'
+  wieght = 20
 
-  [[menus.footer]]
-    name = 'Terms'
-    pageRef = '/terms'
-    weight = 10
-  [[menus.footer]]
-    name = 'Privacy'
-    pageRef = '/privacy'
-    weight = 20
