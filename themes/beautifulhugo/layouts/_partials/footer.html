@@ -10,6 +10,28 @@
       </div>
     </div>
     {{ end }}
+    <div class="navbar-nav">
+    {{ range .Site.Menus.footer.ByWeight }}
+          {{ $name := partial "func/menu-name.html" . }}
+          {{ if .HasChildren }}
+            <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ $name }}
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                {{ range .Children }}
+                  {{ $childName := partial "func/menu-name.html" . }}
+                  <li><a class="dropdown-item" href="{{ partial "func/menu-url.html" . }}">{{ $childName }}</a></li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <li class="nav-item" >
+              <a class="nav-link" title="{{ $name }}" href="{{ partial "func/menu-url.html" . }}">{{ $name }}</a>
+            </li>
+          {{ end }}
+        {{ end -}}
+    </div>
     <div class="row">
       <div class="col-md-10 offset-md-1">
         {{ partialCached "footer-social.html" . .Language.Lang }}

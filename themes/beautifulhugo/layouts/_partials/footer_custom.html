@@ -2,23 +2,3 @@
 If you want to include any custom html just before </body>, put it in /layouts/partials/footer_custom.html
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/footer_custom.html doesn't exist.
 -->
-{{ range .Site.Menus.footer.ByWeight }}
-          {{ $name := partial "func/menu-name.html" . }}
-          {{ if .HasChildren }}
-            <li class="nav-item dropdown" >
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                {{ $name }}
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                {{ range .Children }}
-                  {{ $childName := partial "func/menu-name.html" . }}
-                  <li><a class="dropdown-item" href="{{ partial "func/menu-url.html" . }}">{{ $childName }}</a></li>
-                {{ end }}
-              </ul>
-            </li>
-          {{ else }}
-            <li class="nav-item" >
-              <a class="nav-link" title="{{ $name }}" href="{{ partial "func/menu-url.html" . }}">{{ $name }}</a>
-            </li>
-          {{ end }}
-        {{ end -}}
