@@ -3,7 +3,15 @@ title = ''
 draft = false
 +++
 
+<<<<<<< Updated upstream
 ## Find Your Parking at UK
+=======
+Welcome to the website! 
+
+
+
+
+>>>>>>> Stashed changes
 
 Planning a trip to the University of Kentucky? Explore the campus parking map to find parking locations and review options for students, employees, and visitors.
 
