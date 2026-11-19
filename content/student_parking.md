@@ -7,3 +7,4 @@ tags = []
 
 This is another test post to test out the branches feature in GitHub.
 
+{{< studentparkingmap >}}
